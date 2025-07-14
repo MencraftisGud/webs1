@@ -1,0 +1,64 @@
+  .rizz-button {
+        background-color :rgb(255, 0, 0);
+        color : white;
+        border :none;
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-left : 16px;
+        padding-right : 16px;
+        border-radius :2px;
+        cursor :pointer;
+        margin-right : 8px;
+        transition: opacity 0.15s;
+        vertical-align:top;
+    }
+.rizz-button:hover {
+    opacity : 0.6;
+}
+.rizz-button:active {
+    opacity :0.5;
+}
+
+ .gyatt-button {
+        background : white;
+        border-color :rgb(0, 162, 255);
+border-radius : 3px ;
+color :rgb(0, 162, 255) ;
+border-style :solid ;
+border-width : 2px;
+cursor :pointer;
+margin-right : 8px;
+transition : background-color 0.5s,
+color 0.25s;
+padding-left : 16px;
+padding-top : 9px;
+padding-bottom : 9px;
+padding-right : 16px;
+vertical-align:top;
+
+        
+    }
+    .gyatt-button:hover {
+        background-color:rgb(0, 162, 255);
+        color : white;
+    }
+    .gyatt-button:active {
+        opacity :0.7;
+    }
+
+     .stank-button {
+        background : rgb(9, 137, 216);
+        height : 36px;
+        width : 80px;
+        border-radius: 25px;
+        border: none;
+        font-size : large;
+        cursor : pointer;
+        color: white;
+        font-weight : bold;
+        transition : box-shadow 0.3s;
+        vertical-align:top;
+    }
+    .stank-button:hover {
+        box-shadow : 5px 5px 10px rgba(0,0 ,0, 0.3)
+    }
